@@ -1,0 +1,55 @@
+1  clear
+    2  ls
+    3  java
+    4  jenkins
+    5  sudo apt update
+    6  sudo apt install fontconfig openjdk-17-jre
+    7  java --version
+    8  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+    9  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   10  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   11  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   12  sudo apt-get update
+   13  sudo apt-get install jenkins
+   14  jenkins --version
+   15  clear
+   16  systemctl status jenkins
+   17  clear
+   18  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   19  clear
+   20  ls
+   21  mkdir jenkins
+   22  ls
+   23  cd jenkins/
+   24  /var/lib/jenkins/workspace/adding new
+   25  cd /var/lib/jenkins/workspace/adding new
+   26  ls
+   27  cd /var/lib/jenkins/workspace/adding
+   28  cd
+   29  cd /var/lib/jenkins/workspace/adding new
+   30  cd /var/lib/jenkins/workspace/addingnew
+   31  cd /var/lib/jenkins/workspace/adding new
+   32  cd /var/lib/jenkins/workspace/githubproject
+   33  ls
+   34  cd
+   35  sudo apt install docker.io
+   36  docker
+   37  docker --version
+   38  clear
+   39  sudo apt install docker.io
+
+## if the above not workin 
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+  
+
+sudo apt-get update
+  sudo apt-get install fontconfig openjdk-17-jre
+  sudo apt-get install jenkins
+
+  
